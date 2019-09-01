@@ -210,6 +210,7 @@ public:
 	{
 		if (this->returnNumberAsString() == b.returnNumberAsString())
 			return true;
+		else return false;
 	}
 
 	bool isNegative()
